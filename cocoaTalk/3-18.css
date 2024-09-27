@@ -1,0 +1,55 @@
+body {
+  height: 100vh;
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+p span {
+  text-decoration: lightgreen;
+}
+
+p + span {
+  background-color: aliceblue;
+}
+
+div > span {
+  text-decoration: underline;
+}
+
+input[placeholder="First name"] {
+  background-color: fuchsia;
+}
+input[placeholder~="name"] {
+  background-color: gray;
+}
+
+div {
+  width: 300px;
+  height: 300px;
+  color: teal;
+}
+div:last-child {
+  background-color: aqua;
+}
+
+#green {
+  background-color: teal;
+  position: fixed;
+  opacity: 0.2;
+}
+#different {
+  top: 30px;
+  position: fixed;
+  background-color: wheat;
+  width: 350px;
+}
+
+button:active {
+  background-color: tomato;
+}
+
+button:hover {
+  background-color: pink;
+}
