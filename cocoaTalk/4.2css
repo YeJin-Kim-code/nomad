@@ -1,0 +1,23 @@
+a {
+  color: white;
+  background-color: tomato;
+  text-decoration: none;
+  padding: 3px, 5px;
+  border-radius: 5px;
+  transition: border-radius 1s 500ms cubic-bezier(0.975, -0.035, 0.69, 0.96);
+}
+
+a:hover {
+  color: tomato;
+  border-radius: 20px;
+  background-color: wheat;
+}
+
+img {
+  border: 10px solid black;
+  border-radius: 50%;
+  transition: transform 5s ease-in-out;
+}
+img:hover {
+  transform: rotateZ(90deg) scale(0.5);
+}
