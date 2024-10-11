@@ -1,0 +1,16 @@
+div {
+  background-color: teal;
+  width: 200px;
+  height: 200px;
+}
+@media screen and (max-width: 600px) and (orientation: portrait) {
+  div {
+    background-color: tomato;
+  }
+}
+
+@media screen and (orientation: landscape) {
+  span {
+    display: none;
+  }
+}
